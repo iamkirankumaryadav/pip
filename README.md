@@ -56,4 +56,17 @@ pip freeze > requirements.txt
 ```
 - Creates a requirements.txt file that lists all the packages installed with their versions in your Python environment.
 
+### 9. List installed packages:
+```python
+pip list
+```
+- Displays a list if all the packages installed in Python environment.
+
+### 10. Install a package in editable mode:
+```python
+pip install -e path/to/package_name
+```
+- Installs the specified package in editable mode.
+- Any changes made in the source code of the package are immediately reflected in our Python environment.
+
 
