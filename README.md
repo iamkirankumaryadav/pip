@@ -7,10 +7,53 @@
 
 Useful Pip Commands:
 
-1. Install a package
-
+### 1. Install a package:
 ```python
 pip install package_name
 ```
-
 - Installs the specified package and all its dependencies.
+
+### 2. Show package information:
+```python
+pip show package_name
+```
+- Displays detailed information about specified package.
+- Version, location, dependencies and installed files.
+
+### 3. Upgrade a package:
+```python
+pip install --upgrade package_name
+```
+- Upgrades the specified package to the latest version.
+
+### 4. Search a package:
+```python
+pip search package_name
+```
+- Searches the Python Package Index (PyPi) for packages.
+
+### 5. Uninstall a package:
+```python
+pip uninstall package_name
+```
+- Removes the specified package and all its dependencies.
+
+### 6. Check for outdated packages:
+```python
+pip list --outdated
+```
+- Displays a list if all the packages installed in Python environment that have newer versions available.
+
+### 7. Install packages from a requirements.txt file:
+```python
+pip install -r requirements.txt
+```
+- Installs the packages list in the requirements.txt file in current directory.
+
+### 8. Create a requirements.txt file:
+```python
+pip freeze > requirements.txt
+```
+- Creates a requirements.txt file that lists all the packages installed with their versions in your Python environment.
+
+
