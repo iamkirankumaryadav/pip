@@ -8,7 +8,9 @@
 Useful Pip Commands:
 
 1. Install a package
+
 ```python
 pip install package_name
 ```
+
 - Installs the specified package and all its dependencies.
